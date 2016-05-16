@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fastrde-mqtt" version="0.9.8">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fastrde-mqtt-giri" version="0.9.8">
   <name>MQTT-Client</name>
-  <author>Fabian Strachanski</author>
+  <author>giri</author>
   <description>Cordova plugin to communicate via mqtt for ios and android</description>
   <license>MIT</license>
   <keywords>mqtt, iot, push, notification</keywords>
-  <repo>https://github.com/fastrde/cordova-plugin-fastrde-mqtt.git</repo>
-  <issue>https://github.com/fastrde/cordova-plugin-fastrde-mqtt/issues</issue>
-	
+  <repo>https://github.com/maheshpaytm/cordova-plugin-mqtt-giri.git</repo>
+  <issue>https://https://github.com/maheshpaytm/cordova-plugin-mqtt-giri/issues</issue>
+	<dependency id="cordova-sqlite-storage" />
+	<dependency id="cordova-plugin-network-information" />
 	
   <js-module src="www/mqtt.js" name="mqtt">
     <clobbers target="mqtt" />
