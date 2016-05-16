@@ -7,7 +7,7 @@
   <keywords>mqtt, iot, push, notification</keywords>
   <repo>https://github.com/maheshpaytm/cordova-plugin-mqtt-giri.git</repo>
   <issue>https://https://github.com/maheshpaytm/cordova-plugin-mqtt-giri/issues</issue>
-	<dependency id="cordova-sqlite-storage" />
+	<dependency id="cordova-sqlite-storage" version="1.4.1" />
 	<dependency id="cordova-plugin-network-information" />
 	
   <js-module src="www/mqtt.js" name="mqtt">
