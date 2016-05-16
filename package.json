@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Cordova plugin to communicate via mqtt for ios and android",
   "cordova": {
-    "id": "cordova-plugin-fastrde-mqtt",
+    "id": "cordova-plugin-fastrde-mqtt-giri",
     "platforms": [
       "android",
 			"ios"
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fastrde/cordova-plugin-fastrde-mqtt"
+    "url": "https://github.com/maheshpaytm/cordova-plugin-mqtt-giri.git"
   },
   "bugs": {
-    "url": "https://github.com/fastrde/cordova-plugin-fastrde-mqtt/issues"
+    "url": "https://github.com/maheshpaytm/cordova-plugin-mqtt-giri/issues"
   },
   "keywords": [
     "cordova",
@@ -26,8 +26,8 @@
 		"iot"
   ],
   "author": {
-    "name": "Fabian Strachanski",
-    "email": "mail@fastr.de"
+    "name": "giri",
+    "email": "giri.v8@gmail.com"
   },
   "license": "MIT"
 }
