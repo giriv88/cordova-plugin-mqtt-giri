@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-fastrde-mqtt",
+  "name": "cordova-plugin-fastrde-mqtt-giri",
   "version": "0.2.0",
   "description": "Cordova plugin to communicate via mqtt for ios and android",
   "cordova": {
