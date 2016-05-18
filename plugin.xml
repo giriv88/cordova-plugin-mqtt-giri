@@ -8,8 +8,11 @@
   <repo>https://github.com/maheshpaytm/cordova-plugin-mqtt-giri.git</repo>
   <issue>https://https://github.com/maheshpaytm/cordova-plugin-mqtt-giri/issues</issue>
 
-	<dependency id="cordova-sqlite-storage-giri714" version="0.7.14" url="https://github.com/maheshpaytm/cordova-sqlite-storage-giri714.git" />
+	<!--<dependency id="cordova-sqlite-storage-giri714" version="0.7.14" url="https://github.com/maheshpaytm/cordova-sqlite-storage-giri714.git" />-->
 	<dependency id="cordova-plugin-network-information" />
+	
+	<dependency id="cordova-sqlite-storage" version="1.4.1" url="https://github.com/litehelpers/Cordova-sqlite-storage.git" />
+	
   <js-module src="www/mqtt.js" name="mqtt">
     <clobbers target="mqtt" />
   </js-module>
